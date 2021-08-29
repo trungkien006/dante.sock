@@ -160,7 +160,7 @@ gcc apps/sys-utils/start-stop-daemon-IR1_9_18-2/start-stop-daemon.c -o start-sto
 fi
 #libpam-pwdfile
 if [ ! -s /lib/security/pam_pwdfile.so ];then
-wget --no-check-certificate https://github.com/trungkien006/danted.sock5/raw/main/apps-sys-utils-start-stop-daemon-IR1_9_18-2.tar.gz -O master.zip
+wget --no-check-certificate https://github.com/trungkien006/danted.sock5/raw/main/libpam-pwdfile-master.zip -O master.zip
 unzip master.zip
 cd libpam-pwdfile-master/
 make && make install
