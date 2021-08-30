@@ -31,6 +31,7 @@ Options	describe
 --passwd=	Pam authentication user password
 --master=	Authentication-free address, such as github.com or 8.8.8.8/32
 Use case:
+
 wget --no-check-certificate https://github.com/trungkien006/danted.sock5/raw/main/danted_install.1.4.3.sh -O danted_install.sh 
 bash danted_install.sh
 
